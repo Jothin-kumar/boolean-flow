@@ -1,0 +1,29 @@
+footer {
+    width: 100vw;
+    background-color: #00222369;
+    padding: 5px 0;
+
+    position: absolute;
+    top: 100vh;
+    z-index: 1;
+
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+    transition: background-color 1s;
+}
+footer:hover {
+    background-color: #002223;
+}
+
+footer > p {
+    font-size: small;
+}
+
+#jothin-kumar {
+    color: olive;
+    text-decoration: none;
+}
+#jothin-kumar:hover {
+    color: #00ff00;
+}
